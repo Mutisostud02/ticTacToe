@@ -1,0 +1,24 @@
+*::after,*::before,*{
+ box-sizing: border-box;
+ margin: 0;
+ font-family:'Courier New', Courier, monospace;
+ background-color: #155e75;
+}
+body{
+    padding:5px;
+
+}
+.intro{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.intro h1{
+    font-weight: bold;
+    color:rgb(249, 252, 252)
+}
+.intro h2{
+    color: rgb(172, 171, 171);
+}
