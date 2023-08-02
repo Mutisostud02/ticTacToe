@@ -1,24 +1,37 @@
-*::after,*::before,*{
- box-sizing: border-box;
- margin: 0;
- font-family:'Courier New', Courier, monospace;
- background-color: #155e75;
+*, *::after, *::before {
+    Margin:0;
+    box-sizing: border-box;
+    color: #171717;
+}
+html{
+    background-color:#f5f5f4;
 }
 body{
-    padding:5px;
-
+    margin:5%;
+    text-align: center;
 }
-.intro{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:center;
+h1{
+    font-size: 3rem;
 }
-.intro h1{
+p{
     font-weight: bold;
-    color:rgb(249, 252, 252)
+    margin-top:3rem;
+    font-size: 2.5rem;
+    color:rgb(235, 51, 44)
 }
-.intro h2{
-    color: rgb(172, 171, 171);
+label{
+    display: block;
+    margin:1rem;
+}
+#submit {
+    margin-bottom: 2rem;
+}
+.o{
+    background-color:#07cdff;
+}
+.x{
+    background-color: rgb(226, 42, 18);
+}
+.win{
+    background-color: #fde047;
 }
