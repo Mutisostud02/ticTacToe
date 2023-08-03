@@ -1,7 +1,7 @@
 *, *::after, *::before {
     Margin:0;
     box-sizing: border-box;
-    color: #171717;
+    color: #947a7a;
 }
 html{
     background-color:#f5f5f4;
@@ -17,7 +17,7 @@ p{
     font-weight: bold;
     margin-top:3rem;
     font-size: 2.5rem;
-    color:rgb(235, 51, 44)
+    color:rgb(128, 121, 121)
 }
 label{
     display: block;
