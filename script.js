@@ -6,7 +6,6 @@ const Board = (function () {
     const array = ['','','','','','','','',''];
     array.length = 9;
     const gameArray = function () {
-        console.log(array);
         return array;
     }
     return {gameArray};  
@@ -128,7 +127,6 @@ const gameFlow = function () {
             {
                 gameOver = true;
                 setTimeout(() => {
-                    document.getElementById('9').setAttribute('style', 'color: red; margin-top:3rem; font-size: 2rem; font-weight: 900; font-family: helvetica;');
                     document.getElementById('9').textContent = "GAME OVER!!! IT'S A TIE!";;
                 }, 300);
                 console.log(document.getElementById(drawPos[3].innerHTML))
